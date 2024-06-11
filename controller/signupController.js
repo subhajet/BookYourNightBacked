@@ -1,4 +1,4 @@
-const cryptoJS = require('crypto-JS')
+const CryptoJS = require('crypto-js');
 const User = require("../model/user.model")
 
 const signupHandler = async (req,res) => {
