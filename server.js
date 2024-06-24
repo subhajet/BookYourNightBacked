@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose');
-
+const cors = require('cors');
 
 const hotelDataAddedToDBRouter = require("./routes/dataimport.router") 
 const categoryDataAddedToDBRouter = require("./routes/categoryimport.router") 
